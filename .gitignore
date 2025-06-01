@@ -66,6 +66,14 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+## MAUI / Xamarin / Mobile-specific
+*.apk
+*.aab
+*.ipa
+*.xcarchive
+*.dsym
+*.symbols.zip
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
