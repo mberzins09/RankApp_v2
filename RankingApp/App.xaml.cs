@@ -6,6 +6,8 @@
         {
             InitializeComponent();
 
+            Task.Run(async () => await DatabaseMigrationHelper.MigrateOldDatabasesAsync()).Wait();
+
             MainPage = new AppShell();
         }
     }

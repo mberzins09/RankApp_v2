@@ -21,8 +21,7 @@ namespace RankingApp
             
             builder.Services.AddSingleton<PlayerService>();
             builder.Services.AddSingleton<PlayerServiceWithDate>();
-            builder.Services.AddSingleton<RankingAppsDatabase>();
-            builder.Services.AddSingleton<DatabaseService>();
+            builder.Services.AddSingleton<AppDatabaseService>();
 
             builder.Services.AddSingleton<PlayerViewModel>();
             builder.Services.AddSingleton<GameViewModel>();
